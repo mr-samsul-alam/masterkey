@@ -1,0 +1,12 @@
+.navContainer {
+    padding: 10px;
+    font-size: large;
+    font-weight: bolder;
+    background: #F2F2F2;
+}
+
+.activeClassName {
+    font-size: xx-large;
+    color: #FF6F00;
+}
+ 
