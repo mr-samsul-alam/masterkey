@@ -2,8 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 const Footer = () => {
     return (
-        <div>
-            <h1>hi footer</h1>
+        <div> 
             <div className='m-5'>
                 <Row>
                     <Col sm="12" md="4" style={{ textAlign: "center" }}>

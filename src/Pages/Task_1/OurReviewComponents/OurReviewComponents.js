@@ -3,7 +3,7 @@ import React from 'react';
 const OurReviewComponents = () => {
     return (
         <div>
-            <h1>hello</h1>
+            <h1>card controller</h1>
         </div>
     );
 };
