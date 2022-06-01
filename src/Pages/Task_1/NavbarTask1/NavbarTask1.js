@@ -11,6 +11,8 @@ const NavbarTask1 = () => {
     const [AdClick, setAdClick] = useState(false)
     const [blogClick, setBlogClick] = useState(false)
     const [contactClick, setContactClick] = useState(false)
+    const [loginActive, setLoginActive] = useState(true)
+    const [signupActive, setSignupActive] = useState(false)
 
     const homeClicked = () => {
         setHomeClick(true)
@@ -75,6 +77,14 @@ const NavbarTask1 = () => {
         setAdClick(false)
         setBlogClick(false)
     }
+    const logInclick = () => {
+        setLoginActive(true)
+        setSignupActive(false)
+    }
+    const signupclick = () => {
+        setLoginActive(false)
+        setSignupActive(true)
+    }
 
     return (
         <div>
@@ -110,7 +120,10 @@ const NavbarTask1 = () => {
                     </Nav>
                 </div>
                 <div>
-                    logIN/signUP
+                    <div className='p-2 px-3 rounded-pill d-flex flex-row' style={{ background: '#dee2e6', }}>
+                        <div onClick={logInclick} className='px-3 p-2 rounded-pill' style={{ background: loginActive ? "#ff6f00" : undefined, color: loginActive ? 'white' : undefined, cursor: 'pointer', }}>login</div>
+                        <div onClick={signupclick} className='px-3  p-2 rounded-pill' style={{ background: signupActive ? "#ff6f00" : undefined, color: signupActive ? 'white' : undefined, cursor: 'pointer', }}>signUp</div>
+                    </div>
                 </div>
             </div>
         </div>
