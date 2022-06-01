@@ -1,0 +1,14 @@
+.Fbtn {
+    width: 200px;
+    height: 40px;
+    border: #fff;
+    box-shadow: 10px 15px 20px #00000028;
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+
+.Fbtn:hover {
+    background-color: #ff6f00;
+    box-shadow: 10px 15px 20px #00000065;
+    color: #fff;
+}
