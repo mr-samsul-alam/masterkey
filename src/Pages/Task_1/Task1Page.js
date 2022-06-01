@@ -14,7 +14,7 @@ const Task1Page = () => {
             <HeaderComponent />
             <ServicesComponents />
             <FeaturesComponent />
-            <AchievementComponents></AchievementComponents>
+            <AchievementComponents /> 
             <OurReviewComponents />
             <Footer />
         </div>
