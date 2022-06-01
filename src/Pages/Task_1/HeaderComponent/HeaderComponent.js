@@ -1,10 +1,10 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap'; 
+import { Col, Container, Row } from 'react-bootstrap';
 
-const HeaderComponent = () => { 
+const HeaderComponent = () => {
 
     return (
-        <Container>
+        <Container style={{ textAlign: "center" }}>
             <Row>
                 <Col className='my-5' sm={12} md={4}>
                     <h1>Welcome To Our Website</h1>

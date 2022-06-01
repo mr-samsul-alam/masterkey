@@ -34,16 +34,12 @@ const FeaturesComponent = () => {
 
     return (
         <div>
-            <h1>Our Features</h1>
-            <Container>
+            <h1 style={{ textAlign: "center" }}>Our Features</h1>
+            <Container style={{ textAlign: "center" }}>
                 <Button onClick={btn1Clicked}>POP-UNDER</Button>
                 <Button onClick={btn2Clicked}>BANNER ADD</Button>
                 <Button onClick={btn3Clicked}>NATIVE</Button>
                 <Button onClick={btn4Clicked}>SKIM</Button>
-
-
-
-
                 <Card style={{ display: tab1 ? 'flex' : 'none', flexDirection: 'row' }}>
                     <Card.Img variant="top" src="/Images/header_img.jpg" style={{ width: '25rem' }} />
                     <Card.Body>
